@@ -38,10 +38,10 @@ public class InscriptionController {
         return inscriptionService.updateInscription(i);
     }
 
-/*@PostMapping
-   public Skieur addInscription(@RequestBody Inscription i) {
+@PostMapping
+   public Inscription addInscription(@RequestBody Inscription i) {
         return inscriptionService.addInscription(i);
-    }*/
+    }
 
 
 
